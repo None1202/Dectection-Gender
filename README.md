@@ -1,87 +1,25 @@
-Attendance System Based on Face Recognition
+# Gender Detection using MobileNetV2
 
-Project Overview
-This project involves creating an automated attendance system using facial recognition technology. The system aims to replace traditional manual attendance methods with a more efficient, accurate, and secure approach. Using Convolutional Neural Networks (CNN) and the Inception-ResNet-V2 model, the system automatically verifies and records attendance by recognizing faces, reducing administrative workload, and minimizing human error.
+## Project Overview
+This project is an automatic gender detection system using facial recognition technology. The system utilizes MobileNetV2, a pre-trained Convolutional Neural Network (CNN) model, to classify faces as either Male or Female based on the facial features. The system also integrates OpenCV for face detection from images or video feeds.
 
-Key Features
-Face Recognition-based Attendance: Uses facial recognition to mark attendance automatically.
+## Key Features
+- **Real-time Gender Prediction**: Automatically detects gender (Male/Female) using a webcam feed.
+- **Face Detection**: Uses OpenCV's Haar Cascade Classifier to detect faces in real-time.
+- **MobileNetV2**: A pre-trained lightweight CNN model is used for accurate gender classification.
+- **Easy to Use**: Simple interface for capturing face images through the webcam and displaying the gender prediction.
+- **High Accuracy**: Achieves high accuracy in gender classification based on facial features.
 
-High Accuracy: Achieves up to 97.71% accuracy with the Inception-ResNet-V2 model.
+## Technology Stack
+- **Deep Learning**: MobileNetV2 for gender classification.
+- **Face Detection**: OpenCV for detecting faces from video feeds.
+- **Webcam Integration**: OpenCV for capturing video from the webcam and processing frames.
+- **Python Libraries**: TensorFlow, OpenCV, Numpy, and others for model training and inference.
 
-Data Integration: Integrated with a Laravel-based web application for seamless user interaction.
+## Installation
 
-Easy to Use: Simple user interface where participants take a selfie, and the system auto-fills the attendance form.
-
-Gender Detection: Enhanced with gender detection using the MobileNetV2 model for additional functionality.
-
-Technology Stack
-Deep Learning: Inception-ResNet-V2 for facial recognition.
-
-Web Framework: Laravel for the front-end and Flask for the back-end API.
-
-Data Processing: VSCode for model training, data augmentation, and integration.
-
-API: RESTful API using Flask to handle image processing and face recognition predictions.
-
-Face Detection: OpenCV for detecting faces from images.
-
-Gender Classification: MobileNetV2 for detecting the gender of the individuals.
-
-Installation
 To run this project locally, follow these steps:
 
-Step 1: Clone the repository
-bash
-
-git clone https://github.com/YourUsername/Attendance-System.git
-Step 2: Install dependencies
-For Laravel (front-end):
-
-bash
-
-cd attendance-system-laravel
-composer install
-For Flask API (back-end):
-
-bash
-
-cd flask-api
-pip install -r requirements.txt
-Step 3: Set up the database in Laravel
-bash
-
-php artisan migrate
-Step 4: Start the Laravel server
-bash
-
-php artisan serve
-Step 5: Run the Flask API server
-bash
-
-python app.py
-Step 6: Access the system
-Access the system through the Laravel web interface.
-
-How It Works
-Participants access the attendance page.
-
-They click on "Take Photo," and the system captures their face.
-
-The image is sent to the Flask API, which processes it using the trained CNN model.
-
-If a match is found, the system auto-fills the attendance form with participant details (name, ID, position).
-
-If no match is found, an alert is shown.
-
-Dataset
-The system uses a facial image dataset with front, left, and right view photos of participants. These images are collected via high-resolution cameras (minimum 1080p) to ensure the model's performance and accuracy.
-
-Evaluation
-Model Performance
-The Inception-ResNet-V2 model achieves an accuracy of 97.71%, ensuring high reliability for real-time attendance tracking.
-
-Confusion Matrix
-The model demonstrates excellent results, with perfect classification (all values on the diagonal).
-
-Conclusion
-This face recognition-based attendance system provides a fast, accurate, and user-friendly solution to attendance management. It eliminates manual data entry errors, speeds up the process, and makes it more efficient for both administrators and participants.
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/YourUsername/Gender-Detection.git
