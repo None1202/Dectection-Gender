@@ -23,7 +23,8 @@ To run this project locally, follow these steps:
 ### Step 1: Clone the repository
 
 git clone https://github.com/YourUsername/Gender-Detection.git
-Step 2: Install dependencies
+
+### Step 2: Install dependencies
 Ensure you have Python 3.x installed. Install the required dependencies using pip:
 
 
@@ -36,7 +37,7 @@ OpenCV
 
 Numpy
 
-Step 3: Run the application
+### Step 3: Run the application
 To start the gender detection system, run the following command:
 
 
