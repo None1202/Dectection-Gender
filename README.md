@@ -1,5 +1,6 @@
-Attendance System Based on Face Recognition
-Project Overview
+#Attendance System Based on Face Recognition
+
+#Project Overview
 This project involves creating an automated attendance system using facial recognition technology. The system aims to replace traditional manual attendance methods with a more efficient, accurate, and secure approach. Using Convolutional Neural Networks (CNN) and the Inception-ResNet-V2 model, the system automatically verifies and records attendance by recognizing faces, reducing administrative workload, and minimizing human error.
 
 Key Features
@@ -31,38 +32,32 @@ To run this project locally, follow these steps:
 
 Step 1: Clone the repository
 bash
-Salin
-Edit
+
 git clone https://github.com/YourUsername/Attendance-System.git
 Step 2: Install dependencies
 For Laravel (front-end):
 
 bash
-Salin
-Edit
+
 cd attendance-system-laravel
 composer install
 For Flask API (back-end):
 
 bash
-Salin
-Edit
+
 cd flask-api
 pip install -r requirements.txt
 Step 3: Set up the database in Laravel
 bash
-Salin
-Edit
+
 php artisan migrate
 Step 4: Start the Laravel server
 bash
-Salin
-Edit
+
 php artisan serve
 Step 5: Run the Flask API server
 bash
-Salin
-Edit
+
 python app.py
 Step 6: Access the system
 Access the system through the Laravel web interface.
