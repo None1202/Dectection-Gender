@@ -1,6 +1,6 @@
-#Attendance System Based on Face Recognition
+Attendance System Based on Face Recognition
 
-#Project Overview
+Project Overview
 This project involves creating an automated attendance system using facial recognition technology. The system aims to replace traditional manual attendance methods with a more efficient, accurate, and secure approach. Using Convolutional Neural Networks (CNN) and the Inception-ResNet-V2 model, the system automatically verifies and records attendance by recognizing faces, reducing administrative workload, and minimizing human error.
 
 Key Features
