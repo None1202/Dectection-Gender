@@ -21,14 +21,12 @@ This project is an automatic gender detection system using facial recognition te
 To run this project locally, follow these steps:
 
 ### Step 1: Clone the repository
-```bash
+
 git clone https://github.com/YourUsername/Gender-Detection.git
 Step 2: Install dependencies
 Ensure you have Python 3.x installed. Install the required dependencies using pip:
 
-bash
-Salin
-Edit
+
 pip install -r requirements.txt
 Dependencies include:
 
